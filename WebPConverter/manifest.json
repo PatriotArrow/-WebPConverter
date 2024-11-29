@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "WebPConverter",
+    "description": "Convert WebP images on a page to PNG or JPG.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "downloads",
+      "contextMenus"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icons/border-48.png"
+      }
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": {
+        "48": "icons/border-48.png"
+    }
+  }
+  
